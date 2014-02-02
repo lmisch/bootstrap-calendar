@@ -3,7 +3,7 @@ if(!window.calendar_languages) {
 }
 window.calendar_languages['de-DE'] = {
 	error_noview:     'Kalender: View {0} nicht gefunden',
-	error_dateformat: 'Kalender: Falsches Datumsformat {0}. Sollte entweder "now" oder "yyyy-mm-dd" sein',
+	error_dateformat: 'Kalender: Falsches Datumformat {0}. Sollte entweder "now" oder "yyyy-mm-dd" sein',
 	error_loadurl:    'Kalender: Event-URL nicht gesetzt.',
 	error_where:      'Kalender: Falsche Navigationsrichtung {0}. Nur "next", "prev" oder "today" sind erlaubt',
 	error_timedevide: 'Kalender: Parameter für die Zeittrenn darf 60 durch eine ganze Zahl zu teilen. Beispielsweise 10, 15, 30',
@@ -12,15 +12,15 @@ window.calendar_languages['de-DE'] = {
 
 	title_year:  '{0}',
 	title_month: '{0} {1}',
-	title_week:  'Woche {0} im Jahr {1}',
-	title_day:   '{0}, der {1}. {2} {3}',
+	title_week:  'Woche {0} in {1}',
+	title_day:   '{0}, {1}. {2} {3}',
 
-	week:        'Woche {0}',
-	all_day:     'Ganzen Tag',
-	time:        'Zeit',
-	events:      'Entwicklungen',
-	before_time: 'Zeit vor dem Ende Band',
-	after_time:  'Beenden Sie nach einer vorübergehenden Band',
+	week:        '{0}. KW',
+	all_day:     'ganztägig',
+	time:        'Uhrzeit',
+	events:      'Ereignisse',
+	before_time: 'Beginnt vor der Zeitspanne',
+	after_time:  'Endet nach der Zeitspanne',
 
 	m0:  'Januar',
 	m1:  'Februar',
